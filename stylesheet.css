@@ -26,24 +26,26 @@ body {
     z-index: 100;
 }
 
-.logo {
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: default;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-    
-    /* ADD THIS LINE: This ensures moving back and forth is perfectly smooth */
-    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s ease; 
+.logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    text-decoration:none;
+    color:#fff;
+    opacity:0;
+    animation:slideRight 1s ease forwards;
+    transition:0.3s ease;
 }
 
-/* ADD THIS NEW BLOCK RIGHT BELOW THE .LOGO BLOCK */
-.logo:hover {
-    color: #8E8E8E;             /* Optional: Changes the color to match your nav link hover */
-    transform: translateY(-4px); /* Moves the logo up smoothly by 4 pixels */
+.logo:hover{
+    transform:translateY(-3px);
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+    filter: brightness(0) invert(1);
 }
 .navbar a {
     position: relative;
