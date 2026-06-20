@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   <link rel="stylesheet" href="stylesheet.css">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skill" style="--i:3">Skill</a>
+            <a href="#academic" style="--i:4">Academic</a>
+            <a href="#projects" style="--i:5">Projects</a>
+            <a href="#portfolio" style="--i:6">Achievements</a>
+            <a href="#contact" style="--i:7">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ============ HOME ============ -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hussam Aldin Mahmoud</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>
+               I am an AI Engineering student at UTeM who enjoys building intelligent systems and solving real-world problems.
+             </p>
+           <div class="home-sci">
+
+    <a href="https://www.facebook.com/share/1B7viSp2Xd/" target="_blank" style="--i:7">
+        <i class='bx bxl-facebook'></i>
+    </a>
+
+    <a href="https://www.instagram.com/hussam_m_mahmoud?igsh=MThoN3YzZDJibDlyMA==" target="_blank" style="--i:8">
+        <i class='bx bxl-instagram'></i>
+    </a>
+
+    <a href="https://wa.me/60183660289" target="_blank" style="--i:9">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <a href="mailto:hussammmahmod@gmail.com" style="--i:10">
+        <i class='bx bx-envelope'></i>
+    </a>
+
+</div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <div class="profile-frame">
+                <img src="assets/profile.jpg" alt="Hussam Aldin Mahmoud">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+        <div class="about-img">
+    <img src="assets/about.jpg" alt="Hussam Aldin Mahmoud">
+</div>
+        <div class="about-content">
+            <h2 class="heading">About <span class="silver">Me</span></h2>
+            <h3>I'm Hussam Aldin Mahmoud, an Aspiring AI Engineer</h3>
+            <p>I am an Artificial Intelligence Engineering student at Universiti Teknikal Malaysia Melaka (UTeM), passionate about machine learning, data science, software development, and intelligent systems. I enjoy building practical solutions, exploring emerging technologies, and applying AI techniques to solve real-world problems while continuously improving my technical and analytical skills.
+            </p>
+
+
+            <a href="#contact" class="btn-box">Contact Me</a>
+        </div>
+    </section>
+<!-- ============ SKILL ============ -->
+<section class="skill" id="skill">
+    <h2 class="heading"><span class="silver">My</span> Skills</h2>
+    <p class="skills-subtitle">
+    Technologies & Tools I Have Worked With
+</p>
+
+    <div class="skill-row">
+
+        <div class="skill-bars">
+            <div class="bar">
+                <div class="info"><span>Python</span><span>75%</span></div>
+                <div class="bar-line" style="--width:75%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>Machine Learning</span><span>90%</span></div>
+                <div class="bar-line" style="--width:90%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>Data Science</span><span>95%</span></div>
+                <div class="bar-line" style="--width:95%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>HTML / CSS / JavaScript</span><span>85%</span></div>
+                <div class="bar-line" style="--width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill-bars">
+            <div class="bar">
+                <div class="info"><span>MATLAB</span><span>85%</span></div>
+                <div class="bar-line" style="--width:85%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>C++</span><span>95%</span></div>
+                <div class="bar-line" style="--width:95%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>Image Processing</span><span>85%</span></div>
+                <div class="bar-line" style="--width:85%"></div>
+            </div>
+
+            <div class="bar">
+                <div class="info"><span>MySQL</span><span>90%</span></div>
+                <div class="bar-line" style="--width:90%"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ============ ACADEMIC HISTORY ============ -->
+<section class="academic" id="academic">
+    <h2 class="heading">Academic <span class="silver">History</span></h2>
+
+    <div class="education-orbit">
+        <div class="orbit-circle">
+
+            <div class="orbit-content" id="orbitContent">
+                <h3>Academic Journey</h3>
+                <p>Select one option to view details.</p>
+            </div>
+
+            <div class="orbit-rotator" id="orbitRotator">
+                <button class="orbit-point university-point" data-stage="university">
+                    University
+                </button>
+
+                <button class="orbit-point school-point" data-stage="school">
+                    Secondary School
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="projects" id="projects">
+    <h2 class="heading"><span class="silver">My</span> Projects</h2>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="assets/CSRMS.png" alt="Community Service Project">
+            </div>
+
+            <div class="project-content">
+                <div class="project-number">01</div>
+                <h3>Community Service Request Management System</h3>
+
+                <ul>
+                    <li>C++</li>
+                    <li>MySQL</li>
+                    <li>OOP</li>
+                    <li>File Handling</li>
+                </ul>
+
+                <a href="reports/community_service_report.pdf"
+                   target="_blank"
+                   class="project-btn">
+                    More Details
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="assets/LFSM.png" alt="Lost and Found">
+            </div>
+
+            <div class="project-content">
+                <div class="project-number">02</div>
+                <h3>Lost & Found Management System</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>MySQL</li>
+                </ul>
+
+                <a href="reports/SRS_Lost_and_Found_Management_System.pdf"
+                   target="_blank"
+                   class="project-btn">
+                    More Details
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="assets/SWMFC.png" alt="Smart Washing Machine">
+            </div>
+
+            <div class="project-content">
+                <div class="project-number">03</div>
+                <h3>Smart Washing Machine Fuzzy Controller</h3>
+
+                <ul>
+                    <li>MATLAB</li>
+                    <li>Fuzzy Logic</li>
+                    <li>FCM</li>
+                    <li>Genetic Algorithm</li>
+                </ul>
+
+                <a href="reports/Washing_Machine_Report.pdf"
+                   target="_blank"
+                   class="project-btn">
+                    More Details
+                </a>
+            </div>
+
+        </div>
+               <!-- Project 4 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="assets/TrafficFlow.png" alt="Traffic Flow Prediction">
+            </div>
+
+            <div class="project-content">
+                <div class="project-number">04</div>
+
+                <h3>Traffic Flow Prediction</h3>
+
+                <p class="project-desc">
+                    Machine Learning Model Comparison
+                </p>
+
+                <ul>
+                    <li>Python</li>
+                    <li>Scikit-Learn</li>
+                    <li>Random Forest</li>
+                    <li>KNN</li>
+                    <li>Decision Tree</li>
+                </ul>
+
+                <a href="reports/traffic_flow_report.pdf"
+                   target="_blank"
+                   class="project-btn">
+                    More Details
+                </a>
+
+            </div>
+
+        </div>
+
+                <!-- Project 5 -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <img src="assets/CarParking.png" alt="Car Parking Management System">
+            </div>
+
+            <div class="project-content">
+                <div class="project-number">05</div>
+
+                <h3>Car Parking Management System</h3>
+
+                <ul>
+                    <li>Java</li>
+                    <li>OOP</li>
+                    <li>GUI</li>
+                    <li>Database</li>
+                </ul>
+
+                <a href="reports/car_parking_report.pdf"
+                   target="_blank"
+                   class="project-btn">
+                    More Details
+                </a>
+            </div>
+
+        </div>
+
+    </div> <!-- End projects-container -->
+
+
+ <div class="projects-controls">
+
+    <button class="project-arrow prev-project">
+        &#10094;
+    </button>
+
+    <div class="projects-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <button class="project-arrow next-project">
+        &#10095;
+    </button>
+
+</div>
+
+</section>
+ <!-- ============ ACHIEVEMENTS & CERTIFICATES ============ -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Achievements & <span class="silver">Certificates</span></h2>
+
+    <div class="achievements-list">
+
+        <!-- Dean Award -->
+        <div class="achievement-item active">
+            <div class="achievement-header">
+
+                <div class="achievement-icon">
+                    <i class='bx bxs-award'></i>
+                </div>
+
+                <h3>Dean Award</h3>
+
+                <span>⌄</span>
+            </div>
+
+            <div class="achievement-content">
+                <p>
+                    Awarded by Universiti Teknikal Malaysia Melaka (UTeM) in recognition
+                    of outstanding academic performance and academic excellence.
+                </p>
+
+               <a href="reports/dean_award.pdf" target="_blank">
+                  View Certificate
+               </a>
+            </div>
+        </div>
+
+        <!-- MATLAB -->
+        <div class="achievement-item">
+            <div class="achievement-header">
+
+                <div class="achievement-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+
+                <h3>MATLAB Onramp</h3>
+
+                <span>⌄</span>
+            </div>
+
+            <div class="achievement-content">
+                <p>
+                    Successfully completed MATLAB Onramp training from MathWorks,
+                    covering MATLAB fundamentals, programming concepts,
+                    data visualization, and numerical computing.
+                </p>
+
+                <a href="assets/matlab-onramp.jpg" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Optimization -->
+        <div class="achievement-item">
+            <div class="achievement-header">
+
+                <div class="achievement-icon">
+                    <i class='bx bx-line-chart'></i>
+                </div>
+
+                <h3>Optimization Onramp</h3>
+
+                <span>⌄</span>
+            </div>
+
+            <div class="achievement-content">
+                <p>
+                    Completed Optimization Onramp by MathWorks,
+                    learning optimization techniques and solving
+                    engineering problems using MATLAB.
+                </p>
+
+                <a href="assets/optimization-onramp.jpg" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- ICDL -->
+        <div class="achievement-item">
+            <div class="achievement-header">
+
+                <div class="achievement-icon">
+                    <i class='bx bx-desktop'></i>
+                </div>
+
+                <h3>ICDL Certification</h3>
+
+                <span>⌄</span>
+            </div>
+
+            <div class="achievement-content">
+                <p>
+                    Earned the International Computer Driving License (ICDL),
+                    demonstrating proficiency in productivity software,
+                    digital literacy, and computer applications.
+                </p>
+
+                <a href="assets/icdl.jpg" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Linear Algebra -->
+        <div class="achievement-item">
+            <div class="achievement-header">
+
+                <div class="achievement-icon">
+                    <i class='bx bx-book-open'></i>
+                </div>
+
+                <h3>Linear Algebra Certificate</h3>
+
+                <span>⌄</span>
+            </div>
+
+            <div class="achievement-content">
+                <p>
+                    Successfully completed a Linear Algebra course covering
+                    matrices, vectors, systems of equations, eigenvalues,
+                    and mathematical foundations for Artificial Intelligence.
+                </p>
+
+                <a href="assets/linear-algebra.jpg" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span class="silver">Contact</span> Me</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-box">Send Message</button>
+            <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="contact-sci">
+
+    <a href="https://www.facebook.com/share/1B7viSp2Xd/" target="_blank">
+        <i class='bx bxl-facebook'></i>
+    </a>
+
+    <a href="https://www.instagram.com/hussam_m_mahmoud?igsh=MThoN3YzZDJibDlyMA==" target="_blank">
+        <i class='bx bxl-instagram'></i>
+    </a>
+
+    <a href="https://wa.me/60183660289" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <a href="mailto:hussammmahmod@gmail.com">
+        <i class='bx bx-envelope'></i>
+    </a>
+
+</div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Hussam Aldin Mahmoud | All Rights Reserved</p>
+    </footer>
+<div id="certModal" class="cert-modal">
+    <span class="cert-modal-close">&times;</span>
+    <div class="cert-modal-body">
+        <img id="certModalImg" src="" alt="Certificate View" style="display: none;">
+        
+        <iframe id="certModalFrame" src="" frameborder="0" style="display: none;"></iframe>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
